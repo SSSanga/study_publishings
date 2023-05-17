@@ -1,0 +1,33 @@
+.rain {
+    color: skyblue
+}
+
+.verse {
+    color: yellowgreen
+}
+
+.orange {
+    color: orange
+}
+
+
+.title {
+    color: black;
+    background-color: darkseagreen;
+    text-align: center
+}
+
+body {
+    background-color: beige;
+}
+
+.chorus {
+    color: chartreuse;
+    font-size: 12px;
+}
+.text_effect{
+    font-weight: 900;
+    font-size: 20px;
+    color:coral;
+    text-shadow: 5px 6px 7px black;
+}

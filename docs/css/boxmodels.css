@@ -1,0 +1,19 @@
+* {
+    border: 1px dotted gray;
+}
+.bordered {
+    border: 6px solid blue;
+    border-style: dashed solid dotted double;
+}
+.margined {
+    margin: 0 auto;
+    width: 150px;
+}
+.paddinged {
+    padding:10px 11px 12px 13px;
+    border: 1px solid yellowgreen;
+}
+.aligned{
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+
+body {
+    background-color:skyblue;
+    border: 1px solid black
+}
+.margined {
+    margin:0 auto;
+    border:3px solid black;
+    background-color:orange;
+    width: 500px;
+}
+.title {
+    text-align:center;
+    font-size: 50px;
+    color:seagreen;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px black;
+}
+.text {
+    padding:10px 10px 10px 10px;
+    text-align:left;
+    background-color:lavenderblush;
+}
