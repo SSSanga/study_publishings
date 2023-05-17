@@ -1,19 +1,26 @@
 body {
     background-color:slategrey;
+    margin: 0px 200px 400px 200px;
+    
 }
 .margined {
-    /*margin: 0px 50px 100px 50px;*/
-    width: 700px;
+    width:600px;
     margin: 0 auto;
     background-color: seashell;
     border: 5px solid black;
 }
 .title {
     font-weight:500;
-    font-size: 30px;
+    font-size: 20px;
     color:cornflowerblue;
     text-shadow: 3px 4px 5px;
     text-align:center;
+}
+.octopus {
+    font-size: 30px;
+    font-weight: 300;
+    color:crimson;
+    text-shadow: 4px 4px 6px;
 }
 .text1 {
     padding: 50px 50px 50px 50px;
@@ -34,7 +41,4 @@ body {
     border:1px solid white;
     border-style:dotted;
     background-color:darkslategrey;
-    text-align: right;
-    color: black;
-    
-}
+    text-align: right;}
