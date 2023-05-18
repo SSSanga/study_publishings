@@ -1,0 +1,30 @@
+* {
+    border: 0.5rem dotted blue;
+}
+.border_round_1 {
+    border: 0.1rem solid red;
+    border-radius: 3rem ;
+}
+.border_round_2 {
+    border: 0.1rem solid green;
+    /* border-radius: 1rem 2rem 3rem 4rem ;*/
+    border-radius: 3rem 0rem 0rem 3rem ;
+}
+.border_round_3 {
+    border: 0.1rem solid crimson;
+    border-radius: 3rem 5rem;
+}
+.border_round_4 {
+    border: 0.1rem solid crimson;
+    border-radius: 45%;
+}
+.border_round_5 {
+    border:0.1rem solid crimson;
+    border-radius:50%;
+}
+.border_round_6 {
+    border:0.1rem solid crimson;
+    border-radius:50%;
+    width:100%;
+    height:20%;
+}
