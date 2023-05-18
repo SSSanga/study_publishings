@@ -1,12 +1,12 @@
 body {
     background-color:slategrey;
-    margin: 0px 200px 400px 200px;
+   
     
 }
 .margined {
     width:600px;
     margin: 0 auto;
-    background-color: seashell;
+    background-color:aqua;
     border: 5px solid black;
 }
 .title {
@@ -36,9 +36,6 @@ body {
     color:darkred;
     background-color:lightpink;
 }
-.text3 {
-    padding: 30px 50px 30px 50px;
-    border:1px solid white;
-    border-style:dotted;
-    background-color:darkslategrey;
-    text-align: right;}
+.marginandpadding {
+  padding: 50px;
+}
