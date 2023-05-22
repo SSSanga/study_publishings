@@ -1,3 +1,6 @@
+* {
+    border: 2px dotted olivedrab;
+}
 .auto-width {
-    width: 100%;
+    width:100%;
 }
