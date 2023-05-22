@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap modals</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/commons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="fs-3">Modal Center</div>
+        <a data-bs-toggle="modal" href="#modalTarget-center" class="btn btn-success">CENTER</a>
+        <div class="modal" id="modalTarget-center">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-window"></div>
+            <div class="modal-content">modal content title?
+                <div class="modal-header">HEADER</div>
+                <div class="modal-body">실제 content 입력</div>
+                <div class="modal-footer">FOOTER (주로 button 위치) 
+                    <button data-bs-dismiss="modal"class="btn btn-dark">Close</button></button></div>
+            </div>
+            </div>
+        </div>
+       </div>
+    <div class="container">
+        <div class="fs-3">Scroll_button을 누르고 나서 내용이 넘칠때 주로 기사 내용 많을때?</div>
+        <a data-bs-toggle="modal" href="#modalTarget-scroll" class="btn btn-warning">Scroll Button</a>
+        <div class="modal" id="modalTarget-scroll">
+            <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-window"></div>
+            <div class="modal-content">modal content title?
+                <div class="modal-header">HEADER</div>
+                <div class="modal-body">이 부분은 스크롤 내용이 들어갑니다.body의 내용이 많을때 body가 그 내용이 보이게 커져짐=떨어짐. 그래서 내용을 스크롤로 볼 수 있게 함. 
+                    기사 내용:  The James Webb Space Telescope (JWST) has spotted Saturn’s moon Enceladus spraying out a huge plume of water vapour, far bigger than any previously seen there. This enormous cloud might contain the chemical ingredients of life, escaping from beneath the moon’s icy surface.
+
+                    In 2005, a NASA spacecraft called Cassini discovered icy particles squirting from Enceladus’s subsurface ocean through cracks in the moon’s surface. But JWST shows that material is spraying much farther than previously thought — many times deeper into space than the size of Enceladus itself.
+                    
+                    “It’s immense,” said Sara Faggi, a planetary astronomer at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, on 17 May at a conference at the Space Telescope Science Institute in Baltimore, Maryland. She declined to provide further details, citing a scientific paper that will be published soon.
+                    
+                    Rare ocean world
+                    Enceladus excites astrobiologists because it is one of the few ‘ocean worlds’ in the Solar System, making it one of the best places to look for extraterrestrial life. The salty ocean that lies beneath Enceladus’s outer covering of ice is a possible haven for living organisms, which could be sustained by chemical energy at hydrothermal vents on the ocean floor.
+                    
+                    The material that squirts out of Enceladus, primarily through fractures known as tiger stripes around the moon’s south pole, is a direct link to that potential extraterrestrial ecosystem. The plumes seen by Cassini contained silica particles that were probably carried up from the sea floor by churning fluids1. Cassini flew many times through Enceladus’s plumes, measuring ice grains and life-friendly chemicals such as methane, carbon dioxide and ammonia.
+                    
+                    But it took JWST, a telescope located 1.5 million kilometres from Earth, to discover something that Cassini could not see from its ringside seat. Whereas Cassini could spot ice grains that do not travel far from the surface, JWST has a wider perspective and sensitive instruments that can capture faint gas signals around Enceladus.
+                    
+                    Enceladus at a glance
+                    On 9 November 2022, JWST peeked briefly at Enceladus. Just 4.5 minutes’ worth of data revealed the enormous, very cold plume of water vapour. The forthcoming paper will quantify how much water is spraying out and its temperature, Faggi said. But the plume is likely to be of low density, more like a diffuse, cold cloud than a damp spray. That’s not great news for anyone looking to grab samples from the plume and hoping to find life, as the signs of life may be too sparse to detect2. Ice grains seen by Cassini much closer to Enceladus are more likely to have high concentrations of organic particles, says Shannon MacKenzie, a planetary scientist at the Johns Hopkins University Applied Physics Laboratory in Laurel, Maryland.
+                    
+                    
+                    Scientists made a new kind of ice that might exist on distant moons
+                    
+                    JWST also analysed the spectrum of sunlight reflecting off Enceladus and found evidence of many chemicals, including water and possibly other compounds that could hint at geological or biological activity in the moon’s ocean. “We have many more surprises,” Faggi said.
+                    
+                    Researchers are already planning how to follow up on the discovery. Last week, JWST organizers released a list of the observations to be taken in the telescope’s second round of operations — and it includes another project to study Enceladus. That work will look at Enceladus for six times longer than the first JWST study, and will aim to find chemical compounds associated with habitability, such as organic compounds and hydrogen peroxide. “The new observation will give us our best shot yet at searching for habitability indicators on the surface,” says project lead Christopher Glein, a geochemist at the Southwest Research Institute in San Antonio, Texas.
+                    
+                    Moon-scouting snake robot
+                    JWST’s findings provide more grist for a possible NASA mission to Enceladus to search for signs of life there. Proposals under consideration include an ‘orbilander’ mission that would orbit the moon for a year and a half before landing at its south pole. Another proposal calls for the development of an autonomous snake robot that could slither beneath Enceladus’s ice to explore the ocean.
+                    
+                    Other icy moons in the Solar System are also getting attention from JWST. At the conference, Geronimo Villanueva, a planetary scientist at Goddard, reported that the telescope had detected carbon dioxide on Jupiter’s moon Europa. That excites scientists because carbon and oxygen are key building blocks for life on Earth. NASA is launching a mission to Europa next year that will explore that ocean world in more detail. “This is definitely a new era in the exploration of the Solar System,” Villanueva said.</div>
+                <div class="modal-footer">FOOTER (주로 button 위치) 
+                    <button data-bs-dismiss="modal"class="btn btn-dark">Close</button></button></div>
+            </div>
+            </div>
+        </div>
+       </div>
+    pop-up 창 대체_닫기 이전에 아래 깔려있는 항목을 건들 수 없음. 
+    <div class="container">
+    <div class="fs-3">BASIC</div>
+    <a data-bs-toggle="modal" href="#modalTarget-first" class="btn btn-primary">Modal Button</a>
+    <div class="modal" id="modalTarget-first">
+        <div class="modal-dialog">
+        <div class="modal-window"></div>
+        <div class="modal-content">modal content title?
+            <div class="modal-header">HEADER</div>
+            <div class="modal-body">실제 content 입력</div>
+            <div class="modal-footer">FOOTER (주로 button 위치) 
+                <button data-bs-dismiss="modal"class="btn btn-dark">Close</button></button></div>
+        </div>
+        </div>
+    </div>
+   </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
